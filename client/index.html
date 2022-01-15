@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet_index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+    <title>Finstreet</title>
+</head>
+<body>
+    <header>
+
+        <div class="logo-main">
+            <a href="https://hodlinfo.com/">
+            <div class="logo">
+                
+                <div class="logoImg">
+                    <img src="resources/logo.png" alt="">
+                </div>
+                <div class="logoCom" id='dotCom'>
+                    .com
+                </div>
+                
+            </div></a> 
+            <div class="tagline">
+                <div class="line-cont" style="color: #6c757d;">Powered By 
+                    <a href="https://www.finstreet.in/" ><span style="color: #35a4a2;">Finstreet</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mid">
+            <div class="crncy-opt">
+                <div class="crncy org">
+                    <select name="RealCurrency" id="rlcrcy">
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+                <div class="crncy cry">
+                    <select name="CryptoCurrency" id="crycrcy">
+                        <option value="BTC">
+                            <div class="opt-val">
+                                BTC
+                            </div>
+                        </option>
+                        <option value="ETH">
+                            <div class="opt-val">
+                                ETH
+                            </div>
+                        </option>
+                        <option value="USDT">
+                            <div class="opt-val">
+                                USDT
+                            </div>
+                        </option>
+                        <option value="XRP">
+                            <div class="opt-val">
+                                XRP
+                            </div>
+                        </option>
+                        <option value="DASH">
+                            <div class="opt-val">
+                                DASH
+                            </div>
+                        </option>
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="rgt">
+            <div class="rgt-cont">
+                <div class="timer">
+                    <p><span id="time-count">60</span></p>
+                </div>
+                <div class="telegm">
+                    <a href="https://hodlinfo.com/connect/telegram"><p>
+                        <img src="resources/telegram.png" alt="">
+                        <span>Connect Telegram</span>
+                    </p></a>
+                </div>
+                <div class="slid">
+                    <p><input type="checkbox" name="Dark" id="drkmd" checked autocomplete="off"></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <table border="0" cellspacing=15 id='main-table'>  
+        </table>
+    </div>
+    <script src="scripts/script_index.js"></script>
+    <script src="scripts/script_light.js"></script>
+</body>
+</html>
