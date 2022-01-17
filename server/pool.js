@@ -2,11 +2,11 @@ const mysql=require('mysql');
 
 const pool=mysql.createPool({
     connectionLimit:10,
-    host:'sql6.freesqldatabase.com',
-    port:'3306',
-    database:'sql6465731',
-    user:'sql6465731',
-    password:'hyvkSrRsky'
+    host:process.env.HOST,
+    port:process.env.PorT,
+    database:process.env.DB,
+    user:process.env.USER,
+    password:process.env.PWD
 })
 
 module.exports=pool;
